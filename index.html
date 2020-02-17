@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="da" dir="ltr">
   <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
       <meta name="description" content="Hvad skal vi have til frokost?">
     <title>Hvad skal vi have til frokost?</title>
@@ -13,56 +12,88 @@
 
   </head>
   <body>
-    <h1>Hvad skal vi have til frokost?</h1>
-      <img src="madbillede.jpg" alt="Maden på rejsby idag"/>
-      <p>Her på siden vil du kunne se hvad der er til frokost på de forskellige dage</p>
-      <i><b><a href="foodclock.html">Hvis du vil se hvor lang tid der er til frokost klik her</a></i></b>
-      <!--Strong kan bruge til at sige til browseren at det er vigtigt istedet for at bruge (b)-->
-      <!--Em kan bruges istedet for (i) hvis det er vigtig-->
-      <hr>
-      <p>Her er et skema over hvad vi skal have af mad i denne uge</p>
 
+<div>
+  <div style="background-color:#DDD">
+  <div style="background-color:#000;color:#FFF;text-align:center"><h1>Hvad skal vi have til frokost?</h1></div>
+  <div>
+    <img src="madbillede.jpg" alt="Maden på rejsby idag"/>
+    <p>Her på siden vil du kunne se hvad der er til frokost på de forskellige dage</p>
+    <i><b><a href="foodclock.html">Hvis du vil se hvor lang tid der er til frokost klik her</a></i></b>
+    <!--Strong kan bruge til at sige til browseren at det er vigtigt istedet for at bruge (b)-->
+    <!--Em kan bruges istedet for (i) hvis det er vigtig-->
+    <hr>
+  </div>
+  </div>
+  <div style="background-color:#6da8e3">
+  <div>
+    <p>Her er et skema over hvad vi skal have af mad i denne uge</p>
+    <table>
+        <tr>
+          <th>Dag</th>
+          <th>Maden</th>
+        </tr>
+        <tr>
+          <td>Madag</td>
+          <td>Mad1</td>
+        </tr>
+        <tr>
+          <td>Tirsdag</td>
+          <td>Mad2</td>
+        </tr>
+        <tr>
+          <td>Onsdag</td>
+          <td>Mad3</td>
+        </tr>
+        <tr>
+          <td>Torsdag</td>
+          <td>Mad4</td>
+        </tr>
+        <tr>
+          <td>Fredag</td>
+          <td>Mad5</td>
+        </tr>
+        <tr>
+          <td colspan="2">Lørdag</td>
+        </tr>
+        <tr>
+          <td colspan="2">Søndag</td>
+        </tr>
+        <tr>
+          <td>Mandag</td>
+          <td rowspan="2">Vides ikke</td>
+        </tr>
+        <tr>
+          <td>Tirsdag</td>
+        </tr>
+    </table>
+  </div>
+  <div>
+    <p>Her er nogle ideer til hvad man kan spise</p>
 
+    <ul>
+      <li>Pomfritter</li>
+      <li>En masse andet mad
+        <ol>
+          <li>Andet mad 1</li>
+          <li>Andet mad 2</li>
+          <li>Andet mad 3</li>
+          <li>Andet mad 4</li>
+        </ol>
+      </li>
+      <li>Burger</li>
+      <li>Pizza</li>
+      <li>Is</li>
+    </ul>
 
-      <table>
-          <tr>
-            <th>Dag</th>
-            <th>Maden</th>
-          </tr>
-          <tr>
-            <td>Madag</td>
-            <td>Mad1</td>
-          </tr>
-          <tr>
-            <td>Tirsdag</td>
-            <td>Mad2</td>
-          </tr>
-          <tr>
-            <td>Onsdag</td>
-            <td>Mad3</td>
-          </tr>
-          <tr>
-            <td>Torsdag</td>
-            <td>Mad4</td>
-          </tr>
-          <tr>
-            <td>Fredag</td>
-            <td>Mad5</td>
-          </tr>
-          <tr>
-            <td colspan="2">Lørdag</td>
-          </tr>
-          <tr>
-            <td colspan="2">Søndag</td>
-          </tr>
-          <tr>
-            <td>Mandag</td>
-            <td rowspan="2">Vides ikke</td>
-          </tr>
-          <tr>
-            <td>Tirsdag</td>
-          </tr>
-      </table>
-
-  </body>
+    <ol>
+      <li>Pomfritter</li>
+      <li>Burger</li>
+      <li>Pizza</li>
+      <li>Is</li>
+    </ol>
+  </div>
+</div>
+</div>
+</body>
 </html>
