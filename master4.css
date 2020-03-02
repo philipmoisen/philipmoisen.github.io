@@ -1,0 +1,18 @@
+h1 {
+  font-size: 40px;
+  color: #FF0000;
+  font-family: sans-serif;
+}
+
+h1#stortekst {
+  font-size: 70px;
+}
+
+span.citat {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.gul {
+  color: yellow;
+}
