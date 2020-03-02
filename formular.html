@@ -8,13 +8,13 @@
     <form id="form1" action="#" method="post">
 
       Navn:<br>
-      <input type="text" name="" value=""><br>
+      <input type="text" autofocus><br>
 
       Hjemmeside:<br>
-      <input type="url"><br>
+      <input type="url" disabled value="Ikke nødvendig"><br>
 
       <label for="mand">Mand</label>
-      <input type="radio"value="mand" name="gender" id="mand">
+      <input type="radio"value="mand" name="gender" id="mand" checked>
       <label for="kvinde">Kvinde</label>
       <input type="radio" value="kvinde" name="gender" id="kvinde"><br><br>
 
@@ -23,12 +23,18 @@
       <label for="fugl">Fugl</label>
       <input type="checkbox" value="fugl" name="pet" id="fugl"><br>
       <label for="kat">Kat</label>
-      <input type="checkbox" value="kat" name="pet" id="kat"><br>
+      <input type="checkbox" value="kat" name="pet" id="kat"><br><br>
       Vælg farver <br>
-      
+      <select name="farve" multiple size="2">
+        <option value="2">Brun</option>
+        <option value="3">Hvid</option>
+      </select><br><br>
+      <textarea style="width:200px;height:100px"></textarea><br>
 
+      <input type="password"><br>
 
       <input type="submit" value="Send">
+      <input type="reset" value="Start forfra">
     </form>
   </body>
 </html>
